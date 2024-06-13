@@ -1,1 +1,1 @@
-# undersample
+# Bayesian Optimization with Root-Finding strategy
