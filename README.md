@@ -19,3 +19,9 @@ BOwRF requires modified acquisition functions, where we denote subscript "RF" to
 
 Note: While in the paper, we have used $\|f(\theta ^ *)\|$ instead of $f(\theta ^ *)$ in the context of calibration task, we instead post a general form in this case.
 
+<img src="./Figure/rf_improvement.png" width="700">
+
+This figure illustrates the ditinctive definition of PI in the minimization (left) and root-finding (right).
+
+## Implementation guide
+In the 
