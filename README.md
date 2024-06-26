@@ -23,5 +23,5 @@ Note: While in the paper, we have used $\|f(\theta ^ *)\|$ instead of $f(\theta 
 
 This figure illustrates the ditinctive definition of PI in the minimization (left) and root-finding (right).
 
-## Implementation guide
-In the 
+## Bounding the search space
+Based on the Bolzano's theorem, we have implemented the search space reduction technique, namely RSS in the code. The crux of this technique is to force the optimization process to focus on the selected regions where the root is ensured. RSS is devised to return a single promising region, which is computed based on the smallest hypervolume. But still, one may consider using multiple regions particularly in the case of complex kernel such as Matern kernel.
