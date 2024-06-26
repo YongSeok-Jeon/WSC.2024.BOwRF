@@ -29,7 +29,7 @@ Based on the Bolzano's theorem, we have implemented the search space reduction t
 <img src="./Figure/Hypervolume5.png" width="700">
 
 ## Implementation note
-When running the attached notebook file, in case of running this via computational resource limited environment (e.g., basic setting Google Colab) or where the number of cores in CPU is limited, avoid utilizing parallel setting. Hence, we recommend change the command line in the **Parallel setup**:
+When running the attached notebook file, in case of running this via computational resource limited environment (e.g., basic setting Google Colab) or where the number of cores in CPU is limited, avoid utilizing parallel setting. Hence, we recommend change the command line in the **Parallel setup**, using the for-loop:
 
 ```
 results = [single_minimization_attempt(x0, acquisition, model, bounds) for x0 in x0s] 
